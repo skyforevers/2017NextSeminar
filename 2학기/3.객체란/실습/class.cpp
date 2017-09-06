@@ -26,12 +26,18 @@ public:
   // 평균을 구하는 메소드
   void getavg();
 
+  // get 메소드
+
+  // set 메소드
+
 }
 
 int main(){
 
   // 하나의 인스턴스를 생성
-  studnet stu;
+  studnet *stu;
+
+  // 생성자 호출
 
   // 입력
   stu.input();
@@ -41,6 +47,16 @@ int main(){
 
   // 출력
   stu.print();
+
+  // 이름을 출력하기
+
+  // 나이를 출력하기
+
+  // 나이를 바꾸기
+
+  // 바뀐 나이 출력하기
+
+  // 소멸자 호출
 
   return 0;
 }
