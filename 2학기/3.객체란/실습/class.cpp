@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class student{
@@ -10,7 +11,7 @@ private:
 
 public:
   //class안에 메소드 정의만 실행문은 class 밖에 작성할것
-
+    
   //생성자 이름과 나이 초기화
   student();
 
@@ -32,12 +33,18 @@ public:
 
 }
 
+student :: student(){
+    
+    
+}
+
 int main(){
 
   // 하나의 인스턴스를 생성
   studnet *stu;
 
   // 생성자 호출
+  stu = new student();
 
   // 입력
   stu.input();
