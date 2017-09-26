@@ -1,7 +1,7 @@
 #include <iostream>
 
 class square{
-    
+
     // 사각형의 정보 저장 private
 
     // 생성자
@@ -9,12 +9,12 @@ class square{
     // 가로세로를 입력하는 메소드
     // 넓이를 구하는 메소드
     // get set 메소드 구현
-    
+
 };
 
 
 int main(){
-    
+
     // 객체 생성
     //
     // 입력받기
